@@ -1,0 +1,1652 @@
+#
+===========================================================================
+=====
+CUESTIONARIO COMPLETO PARA RECLAMACIÓN ANTE CONDUSEF
+Sistema de Gestión de Reclamaciones contra Aseguradoras
+Total de campos: 279 distribuidos en 16 secciones
+#
+===========================================================================
+=====
+SECCIÓN 1: DATOS DEL RECLAMANTE (30 campos)
+1.1 Nombre completo (como aparece en identificación oficial)
+Tipo: Texto
+Requerido: Sí
+1.2 Fecha de nacimiento
+Tipo: Fecha (dd/mm/aaaa)
+Requerido: Sí
+1.3 Edad
+Tipo: Número
+Requerido: Sí (calculado automáticamente)
+1.4 CURP
+Tipo: Texto (18 caracteres)
+Requerido: Sí
+Validación: Formato CURP válido
+1.5 RFC
+Tipo: Texto (13 caracteres)
+Requerido: No
+1.6 Nacionalidad
+Tipo: Selección
+Opciones:
+- Mexicana
+- Otra (especificar)
+Requerido: Sí
+1.7 Estado civil
+Tipo: Selección
+Opciones:
+- Soltero/a
+- Casado/a
+- Unión libre
+- Divorciado/a
+- Viudo/a
+Requerido: No
+1.8 Género
+Tipo: Selección
+Opciones:
+- Masculino
+- Femenino
+- Prefiero no especificar
+Requerido: No
+1.9 Ocupación o profesión
+Tipo: Texto
+Requerido: No
+1.10 Correo electrónico principal
+Tipo: Email
+Requerido: Sí
+Validación: Formato de email válido
+1.11 Correo electrónico alternativo
+Tipo: Email
+Requerido: No
+1.12 Teléfono celular (con lada)
+Tipo: Texto (10 dígitos)
+Requerido: Sí
+Formato: 5512345678
+1.13 Teléfono fijo
+Tipo: Texto
+Requerido: No
+1.14 ¿Desea recibir notificaciones por WhatsApp?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+— SUBSECCIÓN 1.A: DOMICILIO DEL RECLAMANTE —
+1.15 Calle
+Tipo: Texto
+Requerido: Sí
+1.16 Número exterior
+Tipo: Texto
+Requerido: Sí
+1.17 Número interior
+Tipo: Texto
+Requerido: No
+1.18 Colonia o fraccionamiento
+Tipo: Texto
+Requerido: Sí
+1.19 Código postal
+Tipo: Texto (5 dígitos)
+Requerido: Sí
+1.20 Alcaldía o municipio
+Tipo: Texto
+Requerido: Sí
+1.21 Estado
+Tipo: Selección
+Opciones: [Lista de 32 estados de México]
+Requerido: Sí
+1.22 Referencias del domicilio
+Tipo: Texto (área de texto)
+Requerido: No
+Ejemplo: Entre calle X y calle Y, edificio azul
+1.23 ¿Es el mismo domicilio que aparece en su identificación oficial?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+1.24 Si respondió No, indique el domicilio de su identificación
+Tipo: Texto (área de texto)
+Requerido: Condicional (solo si 1.23 = No)
+— SUBSECCIÓN 1.B: IDENTIFICACIÓN OFICIAL —
+1.25 Tipo de identificación
+Tipo: Selección
+Opciones:
+- INE/IFE
+- Pasaporte
+- Matrícula consular
+- Cédula profesional
+Requerido: Sí
+1.26 Número de identificación
+Tipo: Texto
+Requerido: Sí
+1.27 Vigencia de la identificación
+Tipo: Fecha
+Requerido: Sí
+Validación: Debe ser fecha futura
+1.28 Archivo de identificación (frente)
+Tipo: Carga de archivo
+Formatos aceptados: PDF, JPG, PNG
+Tamaño máximo: 7MB
+Requerido: Sí
+1.29 Archivo de identificación (reverso)
+Tipo: Carga de archivo
+Formatos aceptados: PDF, JPG, PNG
+Tamaño máximo: 7MB
+Requerido: Sí
+1.30 Archivo de comprobante de domicilio
+Tipo: Carga de archivo
+Formatos aceptados: PDF, JPG, PNG
+Tamaño máximo: 7MB
+Requerido: Sí
+1.31 Fecha del comprobante de domicilio
+Tipo: Fecha
+Requerido: Sí
+Validación: No mayor a 3 meses
+1.32 Tipo de comprobante
+Tipo: Selección
+Opciones:
+- Recibo de luz (CFE)
+- Recibo de agua
+- Recibo de teléfono
+- Estado de cuenta bancario
+- Predial
+- Otro
+Requerido: Sí
+#
+===========================================================================
+=====
+SECCIÓN 2: REPRESENTACIÓN LEGAL (Si aplica) (16 campos)
+NOTA: Complete esta sección SOLO si la reclamación la presenta un
+representante legal del asegurado.
+2.1 ¿La reclamación se presenta mediante representante legal?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+2.2 Si respondió Sí, nombre completo del representante
+Tipo: Texto
+Requerido: Condicional (solo si 2.1 = Sí)
+2.3 Relación con el titular
+Tipo: Selección
+Opciones:
+- Abogado
+- Familiar
+- Apoderado
+- Otro (especificar)
+Requerido: Condicional
+2.4 Tipo de poder
+Tipo: Selección
+Opciones:
+- Poder notarial
+- Carta poder simple
+- Carta poder ratificada ante notario
+Requerido: Condicional
+2.5 Número de escritura pública (si es poder notarial)
+Tipo: Texto
+Requerido: Condicional
+2.6 Nombre del notario público
+Tipo: Texto
+Requerido: Condicional
+2.7 Número de notaría
+Tipo: Texto
+Requerido: Condicional
+2.8 Estado donde se otorgó el poder
+Tipo: Selección (lista de estados)
+Requerido: Condicional
+2.9 Fecha de otorgamiento del poder
+Tipo: Fecha
+Requerido: Condicional
+2.10 Archivo del poder notarial o carta poder
+Tipo: Carga de archivo
+Formatos: PDF
+Tamaño máximo: 7MB
+Requerido: Condicional
+2.11 Identificación oficial del representante (frente)
+Tipo: Carga de archivo
+Requerido: Condicional
+2.12 Identificación oficial del representante (reverso)
+Tipo: Carga de archivo
+Requerido: Condicional
+2.13 Correo electrónico del representante
+Tipo: Email
+Requerido: Condicional
+2.14 Teléfono del representante
+Tipo: Texto (10 dígitos)
+Requerido: Condicional
+2.15 Cédula profesional del abogado (si aplica)
+Tipo: Texto
+Requerido: No
+2.16 Archivo de cédula profesional
+Tipo: Carga de archivo
+Requerido: No
+#
+===========================================================================
+=====
+SECCIÓN 3: DATOS DE LA ASEGURADORA (22 campos)
+3.1 Nombre de la aseguradora
+Tipo: Selección + campo de texto
+Opciones predefinidas:
+- GNP Seguros
+- Qualitas Compañía de Seguros
+- AXA Seguros
+- Mapfre México
+- HDI Seguros
+- Banorte Seguros
+- BBVA Seguros
+- Seguros Inbursa
+- Chubb Seguros
+- Zurich Seguros
+- Afirme Seguros
+- Atlas Seguros
+- Ve por Más
+- ANA Seguros
+- General de Seguros
+- Allianz México
+- Metlife México
+- Seguros Monterrey
+- Plan Seguro
+- Primero Seguros
+- Otra (especificar)
+Requerido: Sí
+3.2 Si seleccionó ‘Otra’, especifique el nombre completo
+Tipo: Texto
+Requerido: Condicional
+3.3 Razón social completa de la aseguradora
+Tipo: Texto
+Requerido: Sí
+Nota: Se puede pre-llenar según la selección en 3.1
+3.4 Domicilio fiscal de la aseguradora
+Tipo: Texto (área de texto)
+Requerido: Sí
+Nota: Se puede pre-llenar según la selección
+3.5 Número de póliza
+Tipo: Texto alfanumérico
+Requerido: Sí
+3.6 Tipo de seguro contratado
+Tipo: Selección
+Opciones:
+- Cobertura Amplia
+- Cobertura Limitada
+- Responsabilidad Civil
+- Seguro Básico
+Requerido: Sí
+3.7 Fecha de inicio de vigencia de la póliza
+Tipo: Fecha
+Requerido: Sí
+3.8 Fecha de fin de vigencia de la póliza
+Tipo: Fecha
+Requerido: Sí
+3.9 ¿La póliza estaba vigente al momento del siniestro?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+- No estoy seguro
+Requerido: Sí
+3.10 Suma asegurada del vehículo
+Tipo: Monto (pesos mexicanos)
+Formato: $000,000.00
+Requerido: Sí
+3.11 Deducible establecido
+Tipo: Texto
+Formato: Puede ser monto fijo o porcentaje (ej: $5,000 o 5%)
+Requerido: Sí
+3.12 Coaseguro (si aplica)
+Tipo: Porcentaje
+Requerido: No
+3.13 Prima anual o fraccionada
+Tipo: Monto
+Requerido: Sí
+3.14 Periodicidad de pago
+Tipo: Selección
+Opciones:
+- Anual
+- Semestral
+- Trimestral
+- Mensual
+Requerido: Sí
+3.15 Forma de pago
+Tipo: Selección
+Opciones:
+- Transferencia bancaria
+- Tarjeta de crédito
+- Tarjeta de débito
+- Efectivo
+- Domiciliación automática
+- Otro
+Requerido: No
+— SUBSECCIÓN 3.A: DOCUMENTOS DE LA PÓLIZA —
+3.16 Archivo de carátula de la póliza
+Tipo: Carga de archivo
+Formatos: PDF
+Tamaño máximo: 7MB
+Requerido: Sí
+3.17 Archivo de condiciones generales completas
+Tipo: Carga de archivo
+Formatos: PDF
+Tamaño máximo: 7MB
+Requerido: Sí
+3.18 Archivo de solicitud de seguro
+Tipo: Carga de archivo
+Formatos: PDF
+Tamaño máximo: 7MB
+Requerido: No
+3.19 Archivo de último recibo de pago
+Tipo: Carga de archivo
+Formatos: PDF, JPG, PNG
+Tamaño máximo: 7MB
+Requerido: Sí
+3.20 Archivos de endosos o modificaciones
+Tipo: Carga múltiple de archivos
+Formatos: PDF
+Tamaño máximo por archivo: 7MB
+Requerido: No
+3.21 ¿Recibió el folleto de derechos básicos del asegurado?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+- No recuerdo
+Requerido: No
+3.22 ¿Le explicaron claramente las coberturas y exclusiones al contratar?
+Tipo: Selección
+Opciones:
+- Sí, de forma clara y suficiente
+- Sí, pero quedé con dudas
+- No me explicaron
+- No recuerdo
+Requerido: Sí
+#
+===========================================================================
+=====
+SECCIÓN 4: DATOS DEL VEHÍCULO ASEGURADO (22 campos)
+4.1 Marca del vehículo
+Tipo: Texto o selección
+Ejemplos: Nissan, Toyota, Honda, Chevrolet, Ford, Volkswagen, etc.
+Requerido: Sí
+4.2 Modelo
+Tipo: Texto
+Ejemplo: Versa, Corolla, Civic, Aveo, Fiesta, Jetta
+Requerido: Sí
+4.3 Año
+Tipo: Número (4 dígitos)
+Rango: 1990 - 2026
+Requerido: Sí
+4.4 Versión o tipo
+Tipo: Texto
+Ejemplo: Sedan, SUV, Hatchback, Pickup
+Requerido: No
+4.5 Color
+Tipo: Texto
+Requerido: Sí
+4.6 Número de serie (VIN)
+Tipo: Texto (17 caracteres alfanuméricos)
+Requerido: Sí
+Validación: Formato VIN válido
+4.7 Número de motor
+Tipo: Texto
+Requerido: No
+4.8 Número de placas
+Tipo: Texto
+Requerido: Sí
+4.9 Estado donde está registrado el vehículo
+Tipo: Selección (lista de estados)
+Requerido: Sí
+4.10 Uso del vehículo declarado en la póliza
+Tipo: Selección
+Opciones:
+- Particular
+- Taxi
+- Uber/Didi/Transporte privado de pasajeros
+- Reparto/Mensajería
+- Comercial
+- Otro (especificar)
+Requerido: Sí
+4.11 ¿El uso real del vehículo coincide con el declarado?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+4.12 Kilometraje aproximado al momento del siniestro
+Tipo: Número
+Requerido: No
+4.13 Valor comercial estimado del vehículo antes del siniestro
+Tipo: Monto
+Requerido: Sí
+4.14 ¿Es el propietario original del vehículo?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+4.15 Si respondió No, ¿cómo lo adquirió?
+Tipo: Selección
+Opciones:
+- Compra de segunda mano
+- Herencia
+- Donación
+- Otro (especificar)
+Requerido: Condicional
+4.16 Archivo de factura o carta factura del vehículo
+Tipo: Carga de archivo
+Formatos: PDF
+Tamaño máximo: 7MB
+Requerido: Sí
+4.17 Archivo de tarjeta de circulación (frente y reverso)
+Tipo: Carga de archivo
+Formatos: PDF, JPG, PNG
+Tamaño máximo: 7MB
+Requerido: Sí
+4.18 ¿Tiene fotografías del vehículo antes del siniestro?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: No
+4.19 Si respondió Sí, cargue las fotografías
+Tipo: Carga múltiple de archivos
+Formatos: JPG, PNG
+Tamaño máximo por archivo: 7MB
+Requerido: Condicional
+4.20 ¿El vehículo tiene modificaciones o accesorios adicionales?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: No
+4.21 Si respondió Sí, describa las modificaciones
+Tipo: Área de texto
+Ejemplo: Rines deportivos, sistema de sonido mejorado, kit de gas LP
+Requerido: Condicional
+4.22 ¿Estas modificaciones estaban declaradas en la póliza?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+- No aplica
+Requerido: Condicional
+#
+===========================================================================
+=====
+SECCIÓN 5: DATOS DEL SINIESTRO (41 campos)
+5.1 Tipo de siniestro
+Tipo: Selección múltiple (puede seleccionar varios)
+Opciones:
+□ Robo total
+□ Robo de autopartes
+□ Daños por colisión (choque)
+□ Volcadura
+□ Incendio
+□ Daños por fenómenos naturales (inundación, granizo, etc.)
+□ Daños por vandalismo
+□ Daños por terceros identificados
+□ Daños por terceros no identificados
+□ Pérdida total
+□ Rotura de cristales
+□ Otro (especificar)
+Requerido: Sí
+5.2 Si seleccionó ‘Otro’, especifique
+Tipo: Texto
+Requerido: Condicional
+5.3 Fecha del siniestro
+Tipo: Fecha
+Requerido: Sí
+Validación: No puede ser fecha futura
+5.4 Hora aproximada del siniestro
+Tipo: Hora (formato 24 horas)
+Ejemplo: 14:30
+Requerido: Sí
+5.5 Lugar exacto donde ocurrió el siniestro
+Tipo: Área de texto
+Requerido: Sí
+Formato: Calle, número, entre calles, colonia, municipio, estado
+5.6 Código postal del lugar del siniestro
+Tipo: Texto (5 dígitos)
+Requerido: Sí
+5.7 Latitud y longitud (si las conoce)
+Tipo: Texto (coordenadas GPS)
+Formato: 19.4326, -99.1332
+Requerido: No
+5.8 Descripción detallada de cómo ocurrió el siniestro
+Tipo: Área de texto grande (2000 caracteres máximo)
+Requerido: Sí
+Instrucciones: Incluya:
+- Circunstancias previas
+- Desarrollo de los hechos paso a paso
+- Consecuencias inmediatas
+- Personas involucradas
+5.9 Condiciones climáticas al momento del siniestro
+Tipo: Selección
+Opciones:
+- Soleado
+- Nublado
+- Lluvia ligera
+- Lluvia intensa
+- Niebla
+- Granizo
+- Otro (especificar)
+Requerido: No
+— SUBSECCIÓN 5.A: CONDUCTOR AL MOMENTO DEL SINIESTRO —
+5.10 ¿Quién conducía el vehículo al momento del siniestro?
+Tipo: Selección
+Opciones:
+- El asegurado (yo)
+- Otra persona autorizada en la póliza
+- Otra persona NO autorizada en la póliza
+Requerido: Sí
+5.11 Si era otra persona, nombre completo del conductor
+Tipo: Texto
+Requerido: Condicional
+5.12 Edad del conductor
+Tipo: Número
+Requerido: Condicional
+5.13 ¿El conductor contaba con licencia de conducir vigente?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+5.14 Tipo de licencia
+Tipo: Selección
+Opciones:
+- Tipo A (Automovilista)
+- Tipo B (Automovilista con vigencia ampliada)
+- Tipo C (Chofer de servicio público)
+- Tipo D (Chofer de transporte de carga)
+- Tipo E (Motociclista)
+- No aplica
+Requerido: Condicional
+5.15 ¿El conductor estaba incluido en la póliza como conductor autorizado?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+- No estoy seguro
+Requerido: Sí
+5.16 ¿El conductor consumió alcohol o sustancias antes del siniestro?
+Tipo: Selección
+Opciones:
+- No
+- Sí
+- No lo sé
+Requerido: Sí
+5.17 Si respondió Sí, ¿se realizó prueba de alcoholemia o antidoping?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Condicional
+5.18 Resultado de la prueba
+Tipo: Texto
+Ejemplo: 0.00 mg/L, Negativo, Positivo
+Requerido: No
+— SUBSECCIÓN 5.B: INTERVENCIÓN DE AUTORIDADES —
+5.19 ¿Intervino alguna autoridad en el siniestro?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+5.20 Si respondió Sí, ¿qué autoridad intervino?
+Tipo: Selección múltiple
+Opciones:
+□ Policía de tránsito/vial
+□ Policía municipal
+□ Policía estatal
+□ Guardia Nacional
+□ Ministerio Público
+□ Protección Civil
+□ Otra (especificar)
+Requerido: Condicional
+5.21 ¿Se elaboró reporte de accidente o parte vial?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Condicional
+5.22 Número de parte o folio del reporte
+Tipo: Texto
+Requerido: Condicional
+5.23 Nombre de la autoridad que elaboró el reporte
+Tipo: Texto
+Requerido: Condicional
+5.24 Archivo del reporte o parte vial
+Tipo: Carga de archivo
+Formatos: PDF, JPG, PNG
+Tamaño máximo: 7MB
+Requerido: Condicional
+5.25 ¿Se levantó acta ministerial o denuncia penal?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: No
+5.26 Si respondió Sí, número de carpeta de investigación
+Tipo: Texto
+Requerido: Condicional
+5.27 Agencia del Ministerio Público
+Tipo: Texto
+Ejemplo: Agencia 23, Fiscalía Regional Centro
+Requerido: Condicional
+5.28 Archivo de la denuncia o acta ministerial
+Tipo: Carga de archivo
+Formatos: PDF
+Tamaño máximo: 7MB
+Requerido: Condicional
+5.29 ¿Se determinó responsabilidad en el accidente?
+Tipo: Selección
+Opciones:
+- Sí, del asegurado (conductor del vehículo asegurado)
+- Sí, de un tercero
+- Responsabilidad compartida
+- No se determinó
+- No aplica (robo, fenómeno natural, etc.)
+Requerido: No
+5.30 ¿Hubo lesionados?
+Tipo: Selección múltiple
+Opciones:
+□ No hubo lesionados
+□ Sí, ocupantes del vehículo asegurado
+□ Sí, terceros (peatones, otros conductores)
+Requerido: Sí
+5.31 Si hubo lesionados, proporcione detalles
+Tipo: Área de texto
+Formato: Nombre, tipo de lesiones, atención médica recibida
+Requerido: Condicional
+— SUBSECCIÓN 5.C: TERCEROS INVOLUCRADOS —
+5.32 ¿Hubo otros vehículos involucrados en el siniestro?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+5.33 Si respondió Sí, ¿cuántos vehículos adicionales?
+Tipo: Número
+Rango: 1-10
+Requerido: Condicional
+5.34 Datos del o los terceros
+[REPETIR PARA CADA TERCERO - Módulo repetible]
+5.34.1 Nombre completo del conductor tercero
+ Tipo: Texto
+ Requerido: Sí
+5.34.2 Teléfono de contacto
+ Tipo: Texto (10 dígitos)
+ Requerido: No
+5.34.3 Compañía de seguros del tercero
+ Tipo: Texto
+ Requerido: No
+5.34.4 Número de póliza del tercero
+ Tipo: Texto
+ Requerido: No
+5.34.5 Marca y modelo del vehículo tercero
+ Tipo: Texto
+ Ejemplo: Nissan Sentra 2020
+ Requerido: Sí
+5.34.6 Placas del vehículo tercero
+ Tipo: Texto
+ Requerido: Sí
+[Botón: Agregar otro tercero]
+5.35 ¿Hubo testigos presenciales del siniestro?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: No
+5.36 Si respondió Sí, datos de los testigos
+[REPETIR PARA CADA TESTIGO - Módulo repetible]
+5.36.1 Nombre completo del testigo
+ Tipo: Texto
+ Requerido: Sí
+5.36.2 Teléfono del testigo
+ Tipo: Texto (10 dígitos)
+ Requerido: No
+5.36.3 Declaración resumida del testigo
+ Tipo: Área de texto
+ Requerido: No
+[Botón: Agregar otro testigo]
+— SUBSECCIÓN 5.D: DOCUMENTACIÓN DEL SINIESTRO —
+5.37 Fotografías del lugar del siniestro
+Tipo: Carga múltiple de archivos
+Formatos: JPG, PNG
+Tamaño máximo por archivo: 7MB
+Cantidad máxima: 20 archivos
+Requerido: No
+5.38 Fotografías de los daños al vehículo
+Tipo: Carga múltiple de archivos
+Formatos: JPG, PNG
+Tamaño máximo por archivo: 7MB
+Cantidad máxima: 30 archivos
+Requerido: Sí (CRÍTICO)
+5.39 Video del siniestro
+Tipo: Carga de archivo o URL
+Formatos: MP4, MOV, AVI, o enlace a YouTube, Google Drive
+Tamaño máximo: 50MB (o enlace)
+Requerido: No
+Ejemplo: Video de dashcam, cámaras de seguridad
+5.40 Croquis o diagrama del accidente
+Tipo: Carga de archivo
+Formatos: PDF, JPG, PNG
+Tamaño máximo: 7MB
+Requerido: No
+5.41 Archivo de otros documentos relacionados con el siniestro
+Tipo: Carga múltiple de archivos
+Formatos: PDF, JPG, PNG
+Tamaño máximo por archivo: 7MB
+Requerido: No
+Ejemplos: Notas médicas, presupuestos, etc.
+#
+===========================================================================
+=====
+SECCIÓN 6: REPORTE DEL SINIESTRO A LA ASEGURADORA (26 campos)
+6.1 ¿Reportó el siniestro a la aseguradora?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+6.2 Si respondió No, explique por qué no reportó
+Tipo: Área de texto
+Requerido: Condicional
+6.3 Fecha en que reportó el siniestro a la aseguradora
+Tipo: Fecha
+Requerido: Condicional (si 6.1 = Sí)
+Validación: Debe ser igual o posterior a la fecha del siniestro
+6.4 Hora aproximada del reporte
+Tipo: Hora
+Requerido: Condicional
+6.5 Medio por el que reportó el siniestro
+Tipo: Selección
+Opciones:
+- Teléfono (call center)
+- Aplicación móvil de la aseguradora
+- Sitio web de la aseguradora
+- Presencial (oficina o sucursal)
+- Correo electrónico
+- WhatsApp
+- Otro (especificar)
+Requerido: Condicional
+6.6 Número de reporte o folio asignado por la aseguradora
+Tipo: Texto
+Requerido: Condicional
+6.7 Número de siniestro asignado
+Tipo: Texto
+Requerido: Condicional
+Nota: Puede ser diferente al número de reporte
+6.8 Nombre de la persona que atendió el reporte inicial
+Tipo: Texto
+Requerido: No
+6.9 ¿Le asignaron un ajustador?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+- Aún no me informan
+Requerido: Sí
+6.10 Si respondió Sí, nombre del ajustador
+Tipo: Texto
+Requerido: Condicional
+6.11 Teléfono del ajustador
+Tipo: Texto (10 dígitos)
+Requerido: No
+6.12 Correo electrónico del ajustador
+Tipo: Email
+Requerido: No
+6.13 Fecha de visita del ajustador al vehículo
+Tipo: Fecha
+Requerido: No
+6.14 ¿El ajustador elaboró un dictamen o reporte?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+- No lo sé / No me lo entregaron
+Requerido: No
+6.15 Archivo del dictamen del ajustador
+Tipo: Carga de archivo
+Formatos: PDF
+Tamaño máximo: 7MB
+Requerido: No
+6.16 ¿Qué concluyó el ajustador en su dictamen?
+Tipo: Área de texto
+Ejemplo: Pérdida total, Daños reparables, Monto estimado, etc.
+Requerido: No
+6.17 Monto estimado de reparación según el ajustador
+Tipo: Monto
+Requerido: No
+6.18 ¿Le indicaron que presentara documentos adicionales?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: No
+6.19 Si respondió Sí, ¿qué documentos le solicitaron?
+Tipo: Área de texto
+Requerido: Condicional
+6.20 ¿Entregó todos los documentos solicitados?
+Tipo: Selección
+Opciones:
+- Sí, entregué todos
+- No, aún no los entrego
+- Entregué algunos
+Requerido: Condicional
+6.21 Si no entregó todos, explique por qué
+Tipo: Área de texto
+Requerido: Condicional
+6.22 Fecha de entrega de documentos a la aseguradora
+Tipo: Fecha
+Requerido: No
+6.23 Archivo de acuse de recibo de documentos
+Tipo: Carga de archivo
+Formatos: PDF, JPG, PNG
+Tamaño máximo: 7MB
+Requerido: No
+6.24 ¿Le autorizaron la reparación del vehículo?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+- Aún sin respuesta
+Requerido: No
+6.25 Si autorizaron reparación, ¿en qué taller?
+Tipo: Texto
+Ejemplo: Nombre y dirección del taller
+Requerido: Condicional
+6.26 ¿Es taller de la red de la aseguradora o de su elección?
+Tipo: Selección
+Opciones:
+- Taller de la red de la aseguradora
+- Taller de mi elección
+- No aplica
+Requerido: Condicional
+#
+===========================================================================
+=====
+SECCIÓN 7: RESPUESTA DE LA ASEGURADORA (17 campos)
+7.1 ¿La aseguradora ya dio respuesta oficial al siniestro?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+7.2 Si respondió No, ¿cuánto tiempo ha transcurrido desde el siniestro?
+Tipo: Número (días)
+Requerido: Condicional
+Nota: Se puede calcular automáticamente
+7.3 Si respondió Sí, ¿cuál fue la respuesta de la aseguradora?
+Tipo: Selección
+Opciones:
+- Aceptó pagar la indemnización completa
+- Negó completamente el pago
+- Ofreció un pago menor al reclamado
+- Aceptó pagar pero no ha cumplido
+- Otro (especificar)
+Requerido: Condicional
+7.4 Fecha de la respuesta oficial
+Tipo: Fecha
+Requerido: Condicional
+7.5 Medio por el que recibió la respuesta
+Tipo: Selección
+Opciones:
+- Carta / Oficio físico
+- Correo electrónico
+- Llamada telefónica
+- Notificación en aplicación móvil
+- Presencial en oficina
+- No recibí respuesta por escrito
+Requerido: Condicional
+7.6 Archivo de la carta de respuesta o negativa
+Tipo: Carga de archivo
+Formatos: PDF, JPG, PNG
+Tamaño máximo: 7MB
+Requerido: CRÍTICO (si existe)
+Nota: Este es uno de los documentos más importantes
+7.7 Si la aseguradora NEGÓ el pago, ¿cuál fue el motivo alegado?
+Tipo: Selección múltiple
+Opciones:
+□ Exclusión de póliza
+□ Falta de documentación
+□ Documentación incompleta
+□ Falsedad u omisión de información
+□ Póliza no vigente al momento del siniestro
+□ Falta de pago de prima
+□ Conductor no autorizado
+□ Uso indebido del vehículo
+□ Conducción bajo influencia de alcohol o drogas
+□ Daño intencional
+□ Siniestro no cubierto por la póliza
+□ Falta de mantenimiento del vehículo
+□ Preexistencia (daños previos)
+□ Otro (especificar)
+Requerido: Condicional
+7.8 Si seleccionó ‘Otro’, especifique el motivo
+Tipo: Área de texto
+Requerido: Condicional
+7.9 Explicación completa del motivo de negativa según la aseguradora
+Tipo: Área de texto (1000 caracteres máximo)
+Requerido: Condicional
+Instrucción: Copie textualmente lo que dice la carta de negativa
+7.10 Si ofrecieron un pago MENOR, ¿qué monto ofrecieron?
+Tipo: Monto
+Requerido: Condicional
+7.11 ¿Por qué considera que el monto ofrecido es insuficiente?
+Tipo: Área de texto
+Requerido: Condicional
+Ejemplo: El valor comercial es mayor, no cubre todos los daños, etc.
+7.12 Si ACEPTARON pagar, ¿ya realizaron el pago?
+Tipo: Selección
+Opciones:
+- Sí, pagaron completo
+- Sí, pero pagaron menos de lo acordado
+- No, aún no pagan
+- Realizaron pago parcial
+Requerido: Condicional
+7.13 Si ya pagaron, ¿qué monto le pagaron?
+Tipo: Monto
+Requerido: Condicional
+7.14 Fecha del pago
+Tipo: Fecha
+Requerido: Condicional
+7.15 Si aún NO pagan, ¿cuántos días han transcurrido desde que dieron
+respuesta positiva?
+Tipo: Número (días)
+Requerido: Condicional
+Nota: Puede calcularse automáticamente
+7.16 ¿Le han dado explicaciones del retraso en el pago?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Condicional
+7.17 Si respondió Sí, ¿cuál es la explicación del retraso?
+Tipo: Área de texto
+Requerido: Condicional
+#
+===========================================================================
+=====
+SECCIÓN 8: CONTACTO CON LA UNE (11 campos)
+Unidad Especializada de Atención a Usuarios de la Aseguradora
+8.1 ¿Presentó queja ante la UNE de la aseguradora?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+- No sabía que existía la UNE
+Requerido: Sí
+8.2 Si respondió Sí, fecha de presentación de la queja ante UNE
+Tipo: Fecha
+Requerido: Condicional
+8.3 Número de folio de la queja ante UNE
+Tipo: Texto
+Requerido: Condicional
+8.4 Medio de presentación de la queja
+Tipo: Selección
+Opciones:
+- Presencial en oficina
+- Teléfono
+- Correo electrónico
+- Portal web de la aseguradora
+- Escrito entregado en sucursal
+- Otro
+Requerido: Condicional
+8.5 Archivo del escrito de queja ante UNE
+Tipo: Carga de archivo
+Formatos: PDF
+Tamaño máximo: 7MB
+Requerido: No
+8.6 ¿La UNE dio respuesta a su queja?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+- Aún en trámite
+Requerido: Condicional
+8.7 Si respondió Sí, fecha de respuesta de la UNE
+Tipo: Fecha
+Requerido: Condicional
+8.8 ¿Cuál fue la respuesta de la UNE?
+Tipo: Área de texto
+Requerido: Condicional
+8.9 Archivo de la respuesta de la UNE
+Tipo: Carga de archivo
+Formatos: PDF
+Tamaño máximo: 7MB
+Requerido: No
+8.10 ¿Está conforme con la respuesta de la UNE?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Condicional
+8.11 Si respondió No, explique por qué no está conforme
+Tipo: Área de texto
+Requerido: Condicional
+#
+===========================================================================
+=====
+SECCIÓN 9: DAÑOS Y PÉRDIDAS (15 campos + subcampos)
+9.1 Tipo de daño principal
+Tipo: Selección múltiple
+Opciones:
+□ Daños materiales al vehículo (reparables)
+□ Robo total del vehículo
+□ Robo de autopartes
+□ Pérdida total (daños irreparables)
+□ Gastos médicos de ocupantes
+□ Gastos de grúa
+□ Gastos de almacenaje (corralón, pensión)
+□ Lucro cesante (pérdida por no poder usar el vehículo)
+□ Daño moral
+□ Otro (especificar)
+Requerido: Sí
+9.2 Si hay daños materiales reparables, descríbalos en detalle
+Tipo: Área de texto (1500 caracteres)
+Requerido: Condicional
+Ejemplo: Golpe en parachoques delantero, faro izquierdo roto, capó
+abollado, etc.
+9.3 Partes del vehículo dañadas
+Tipo: Selección múltiple
+Opciones:
+□ Parte frontal (fascia, parachoques delantero)
+□ Parte trasera (fascia, parachoques trasero)
+□ Lateral izquierdo
+□ Lateral derecho
+□ Techo
+□ Piso / Chasis
+□ Motor
+□ Transmisión
+□ Suspensión
+□ Sistema eléctrico
+□ Cristales (parabrisas, ventanas)
+□ Llantas y rines
+□ Interior (asientos, tablero, volante)
+□ Pintura
+□ Otro (especificar)
+Requerido: Condicional
+9.4 ¿Obtuvo cotizaciones de reparación de talleres?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+9.5 Si respondió Sí, ¿de cuántos talleres obtuvo cotización?
+Tipo: Número
+Rango: 1-10
+Requerido: Condicional
+9.6 Datos de cotizaciones de talleres
+[REPETIR PARA CADA TALLER - Módulo repetible]
+9.6.1 Nombre del taller
+ Tipo: Texto
+ Requerido: Sí
+9.6.2 Dirección del taller
+ Tipo: Texto
+ Requerido: No
+9.6.3 Monto total de la cotización
+ Tipo: Monto
+ Requerido: Sí
+9.6.4 Archivo de la cotización
+ Tipo: Carga de archivo
+ Formatos: PDF, JPG, PNG
+ Tamaño máximo: 7MB
+ Requerido: Sí
+[Botón: Agregar otra cotización]
+9.7 ¿Ya realizó la reparación del vehículo?
+Tipo: Selección
+Opciones:
+- Sí, ya está reparado
+- No, aún no
+- Reparación parcial
+Requerido: Sí
+9.8 Si respondió Sí, monto total pagado por la reparación
+Tipo: Monto
+Requerido: Condicional
+9.9 Archivo de factura de reparación
+Tipo: Carga de archivo
+Formatos: PDF
+Tamaño máximo: 7MB
+Requerido: Condicional
+9.10 Si es PÉRDIDA TOTAL o ROBO TOTAL, ¿cuál considera que es el
+valor justo del vehículo?
+Tipo: Monto
+Requerido: Condicional
+9.11 Fundamento del valor reclamado
+Tipo: Área de texto
+Requerido: Condicional
+Ejemplo: Suma asegurada en póliza: $250,000; Valor comercial según
+Kavak: $245,000; Valor según Mercado Libre: $248,000
+9.12 Archivos que sustentan el valor reclamado
+Tipo: Carga múltiple de archivos
+Formatos: PDF, JPG, PNG
+Tamaño máximo por archivo: 7MB
+Requerido: Condicional
+Ejemplos: Capturas de pantalla de Kavak, Mercado Libre, AutoScout,
+avalúo pericial, etc.
+— SUBSECCIÓN 9.A: GASTOS ADICIONALES —
+9.13 ¿Incurrió en gastos adicionales relacionados con el siniestro?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+9.14 Si respondió Sí, detalle cada gasto adicional
+[REPETIR PARA CADA GASTO - Módulo repetible]
+9.14.1 Concepto del gasto
+ Tipo: Selección + Texto
+ Opciones predefinidas:
+ - Grúa
+ - Almacenaje (corralón/pensión)
+ - Peritaje independiente
+ - Gastos médicos
+ - Transporte alternativo (taxi, Uber, renta de auto)
+ - Abogado particular
+ - Trámites legales
+ - Otro (especificar)
+ Requerido: Sí
+9.14.2 Monto del gasto
+ Tipo: Monto
+ Requerido: Sí
+9.14.3 Fecha del gasto
+ Tipo: Fecha
+ Requerido: Sí
+9.14.4 Archivo de factura o comprobante
+ Tipo: Carga de archivo
+ Formatos: PDF, JPG, PNG
+ Tamaño máximo: 7MB
+ Requerido: Sí
+[Botón: Agregar otro gasto]
+9.15 Total de gastos adicionales
+Tipo: Monto (calculado automáticamente)
+Fórmula: Suma de todos los montos en 9.14.2
+Mostrar como: Total: $00,000.00
+#
+===========================================================================
+=====
+SECCIÓN 10: MONTO RECLAMADO (11 campos)
+10.1 Concepto principal de lo que reclama
+Tipo: Selección múltiple
+Opciones:
+□ Indemnización por pérdida total
+□ Indemnización por robo total
+□ Pago de reparación de daños materiales
+□ Reembolso de gastos de grúa
+□ Reembolso de gastos de almacenaje
+□ Reembolso de gastos médicos
+□ Gastos de peritaje independiente
+□ Lucro cesante (pérdida económica por no poder usar el vehículo)
+□ Intereses moratorios
+□ Daño moral
+□ Otro (especificar)
+Requerido: Sí
+10.2 Si seleccionó ‘Otro’, especifique
+Tipo: Texto
+Requerido: Condicional
+10.3 Monto TOTAL reclamado a la aseguradora
+Tipo: Monto
+Requerido: Sí
+Nota: Este es el monto que aparecerá en el escrito de reclamación
+10.4 Desglose del monto reclamado:
+10.4.1 Por concepto de indemnización/reparación principal
+ Tipo: Monto
+ Requerido: Sí
+10.4.2 Por concepto de gastos adicionales documentados
+ Tipo: Monto
+ Requerido: No
+ Nota: Puede tomarse automáticamente de 9.15
+10.4.3 Por concepto de intereses moratorios
+ Tipo: Monto
+ Requerido: No
+ Ayuda: Si han pasado más de 90 días, puede reclamar intereses
+10.4.4 Por concepto de lucro cesante
+ Tipo: Monto
+ Requerido: No
+ Ejemplo: Si usa el vehículo para trabajar (Uber, reparto, etc.)
+10.4.5 Por concepto de daño moral
+ Tipo: Monto
+ Requerido: No
+10.4.6 Otros conceptos
+ Tipo: Monto
+ Requerido: No
+10.5 Fundamento legal de cada concepto
+Tipo: Área de texto
+Requerido: No
+Nota: El sistema puede pre-llenar con artículos aplicables
+Ejemplo: “Art. 71 de la Ley sobre el Contrato de Seguro para
+indemnización; Art. 20 para intereses moratorios”
+10.6 Forma de pago solicitada a la aseguradora
+Tipo: Selección
+Opciones:
+- Transferencia electrónica (SPEI)
+- Cheque nominativo
+- Otro (especificar)
+Requerido: Sí
+10.7 Si seleccionó transferencia electrónica, datos bancarios:
+10.7.1 Banco
+ Tipo: Selección
+ Opciones: [Lista de bancos en México]
+ Requerido: Condicional
+10.7.2 CLABE interbancaria
+ Tipo: Texto (18 dígitos)
+ Requerido: Condicional
+ Validación: Formato CLABE válido
+10.7.3 Número de cuenta
+ Tipo: Texto
+ Requerido: No
+10.7.4 Titular de la cuenta
+ Tipo: Texto
+ Requerido: Condicional
+ Validación: Debe coincidir con nombre del reclamante
+#
+===========================================================================
+=====
+SECCIÓN 11: ARGUMENTOS Y FUNDAMENTOS DE LA RECLAMACIÓN (8 campos)
+11.1 ¿Por qué considera que la negativa o respuesta de la aseguradora
+es injustificada?
+Tipo: Área de texto grande (3000 caracteres)
+Requerido: Sí
+Instrucciones: Explique con sus propias palabras por qué la aseguradora
+debe pagar. Sea específico y claro.
+11.2 ¿Qué cláusulas o artículos de su póliza sustentan su reclamación?
+Tipo: Área de texto
+Requerido: No
+Ejemplo: “Cláusula 5.2 de Condiciones Generales establece cobertura
+para daños por colisión”
+11.3 ¿Qué disposiciones legales considera que la aseguradora está violando?
+Tipo: Área de texto
+Requerido: No
+Ayuda: El sistema puede sugerir artículos según el caso
+Ejemplos: Art. 71 LCS (plazo de pago), Art. 20 LCS (intereses), etc.
+11.4 ¿Tiene alguna otra información o argumento relevante para su caso?
+Tipo: Área de texto
+Requerido: No
+11.5 ¿Desea que se solicite a la aseguradora que presente documentos
+específicos en la audiencia?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+11.6 Si respondió Sí, ¿qué documentos desea que la aseguradora presente?
+Tipo: Área de texto
+Requerido: Condicional
+Ejemplo: “Expediente completo del siniestro, dictamen del ajustador,
+grabaciones de llamadas, correos electrónicos”
+11.7 ¿Existen precedentes o casos similares que respalden su reclamación?
+Tipo: Selección
+Opciones:
+- Sí, conozco casos similares
+- No lo sé
+- No
+Requerido: No
+11.8 Si respondió Sí, descríbalos brevemente
+Tipo: Área de texto
+Requerido: Condicional
+#
+===========================================================================
+=====
+SECCIÓN 12: PREFERENCIAS DE RESOLUCIÓN (7 campos)
+12.1 ¿Cuál es su objetivo principal con esta reclamación?
+Tipo: Selección
+Opciones:
+- Obtener el pago completo de la indemnización que me corresponde
+- Llegar a un acuerdo razonable con la aseguradora
+- Que se reconozca que mi reclamación es procedente
+- Que la aseguradora cumpla con el contrato que firmamos
+- Otro (especificar)
+Requerido: Sí
+12.2 ¿Estaría dispuesto a aceptar un convenio si se alcanza un acuerdo
+satisfactorio en la audiencia de conciliación?
+Tipo: Selección
+Opciones:
+- Sí, estoy abierto a un acuerdo justo
+- Depende del monto que ofrezcan
+- No, prefiero que se resuelva mediante arbitraje o judicialmente
+- No estoy seguro
+Requerido: Sí
+12.3 Monto mínimo que estaría dispuesto a aceptar en un convenio
+Tipo: Monto
+Requerido: No
+Nota: Esta información es confidencial y solo para referencia interna
+12.4 ¿Desea que se intente el procedimiento de arbitraje (si procede)?
+Tipo: Selección
+Opciones:
+- Sí, deseo arbitraje si no hay acuerdo en conciliación
+- No, prefiero acudir a tribunales
+- No estoy seguro, necesito más información
+Requerido: No
+Ayuda: El arbitraje es gratuito, rápido y el laudo es vinculante
+12.5 ¿Requeriría defensoría legal gratuita de CONDUSEF?
+Tipo: Selección
+Opciones:
+- Sí, no tengo recursos para contratar abogado
+- No, tengo mi propio abogado
+- Aún no lo sé
+Requerido: No
+Nota: Para defensoría gratuita se requiere estudio socioeconómico
+12.6 ¿Desea solicitar dictamen técnico de CONDUSEF sobre la procedencia
+de su reclamación?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+- Aún no lo sé
+Requerido: No
+Ayuda: El dictamen es una opinión especializada que puede usar en juicio
+12.7 ¿Está dispuesto a acudir a juicio si no se resuelve favorablemente
+en CONDUSEF?
+Tipo: Selección
+Opciones:
+- Sí, iré hasta las últimas consecuencias
+- Depende de las circunstancias
+- No, no quiero litigar
+- No estoy seguro
+Requerido: No
+#
+===========================================================================
+=====
+SECCIÓN 13: DOCUMENTOS Y PRUEBAS DISPONIBLES (30 checkboxes + archivos)
+INSTRUCCIONES: Marque con ✓ los documentos que tiene disponibles y
+cárguelos en el sistema. Los documentos marcados como CRÍTICOS son
+indispensables.
+— 13.1 DOCUMENTOS DEL RECLAMANTE —
+□ Identificación oficial vigente (frente y reverso) [CRÍTICO]
+□ Comprobante de domicilio (no mayor a 3 meses) [CRÍTICO]
+□ CURP
+□ Poder notarial (si aplica representación legal)
+— 13.2 DOCUMENTOS DE LA PÓLIZA —
+□ Carátula de póliza [CRÍTICO]
+□ Condiciones generales completas [CRÍTICO]
+□ Recibos de pago de prima [CRÍTICO]
+□ Solicitud de seguro
+□ Endosos o modificaciones a la póliza
+— 13.3 DOCUMENTOS DEL VEHÍCULO —
+□ Factura o carta factura del vehículo [CRÍTICO]
+□ Tarjeta de circulación [CRÍTICO]
+□ Fotografías del vehículo antes del siniestro
+— 13.4 DOCUMENTOS DEL SINIESTRO —
+□ Reporte a la aseguradora (folio/número de siniestro) [CRÍTICO]
+□ Parte vial o reporte policial (si hay)
+□ Denuncia ministerial o acta (para robo) [CRÍTICO si hay robo]
+□ Fotografías de los daños al vehículo [CRÍTICO]
+□ Video del siniestro (dashcam, cámaras de seguridad)
+□ Dictamen del ajustador de la aseguradora
+□ Croquis del accidente
+□ Declaraciones de testigos
+— 13.5 DOCUMENTOS DE LA RESPUESTA DE LA ASEGURADORA —
+□ Carta de negativa o respuesta oficial [CRÍTICO]
+□ Correos electrónicos intercambiados con la aseguradora
+□ Escritos presentados ante la aseguradora
+□ Respuestas de la UNE (Unidad Especializada)
+□ Grabaciones de llamadas telefónicas
+— 13.6 DOCUMENTOS DE VALUACIÓN Y GASTOS —
+□ Cotizaciones de reparación (mínimo 2) [CRÍTICO para daños]
+□ Factura de reparación (si ya se realizó)
+□ Facturas de gastos de grúa
+□ Facturas de gastos de almacenaje
+□ Facturas de otros gastos relacionados
+□ Valuación de vehículos similares (Kavak, Mercado Libre, etc.)
+□ Avalúo pericial independiente
+— 13.7 OTROS DOCUMENTOS —
+□ Informes periciales independientes
+□ Documentos médicos (si hay lesionados)
+□ Otros documentos probatorios
+MÓDULO DE CARGA DE ARCHIVOS:
+Para cada documento marcado, el sistema debe permitir:
+- Cargar el archivo correspondiente
+- Agregar descripción breve
+- Validar formato y tamaño
+- Generar vista previa
+#
+===========================================================================
+=====
+SECCIÓN 14: HISTORIAL DE COMUNICACIONES (7 campos + tabla)
+14.1 ¿Ha mantenido comunicación constante con la aseguradora?
+Tipo: Selección
+Opciones:
+- Sí, he estado en contacto frecuente
+- Ocasionalmente
+- No, no he podido comunicarme
+Requerido: Sí
+14.2 Número total aproximado de llamadas telefónicas realizadas
+Tipo: Número
+Requerido: No
+14.3 Número total aproximado de correos electrónicos enviados
+Tipo: Número
+Requerido: No
+14.4 Número de visitas presenciales a oficinas de la aseguradora
+Tipo: Número
+Requerido: No
+14.5 Tabla de comunicaciones principales
+[TABLA DINÁMICA - Permitir agregar múltiples registros]
+Columnas:
+- Fecha [Fecha]
+- Tipo [Selección: Llamada/Email/Presencial/WhatsApp/Otro]
+- Con quién [Texto - nombre y puesto]
+- Resumen de lo tratado [Texto breve]
+- Resultado u acuerdo alcanzado [Texto]
+[Botón: Agregar comunicación]
+Requerido: No (pero recomendado)
+14.6 ¿Conserva registros de estas comunicaciones?
+Tipo: Selección
+Opciones:
+- Sí, tengo todos los registros
+- Sí, tengo algunos registros
+- No, no conservo registros
+Requerido: No
+14.7 Si tiene registros, cárguelos aquí
+Tipo: Carga múltiple de archivos
+Formatos: PDF, JPG, PNG, MP3 (grabaciones), TXT
+Tamaño máximo por archivo: 10MB
+Requerido: No
+Ejemplos: Capturas de correos, grabaciones de llamadas,
+capturas de WhatsApp
+#
+===========================================================================
+=====
+SECCIÓN 15: INFORMACIÓN ADICIONAL Y OBSERVACIONES (10 campos)
+15.1 ¿Existe algún otro detalle relevante que no se haya incluido en las
+secciones anteriores?
+Tipo: Área de texto grande
+Requerido: No
+15.2 ¿Tiene alguna preocupación particular sobre su caso?
+Tipo: Área de texto
+Requerido: No
+15.3 ¿Ha consultado con algún abogado particular sobre su caso?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: No
+15.4 Si respondió Sí, ¿qué le recomendó el abogado?
+Tipo: Área de texto
+Requerido: Condicional
+15.5 ¿Conoce a otras personas con problemas similares con esta misma
+aseguradora?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: No
+15.6 Si respondió Sí, podría tratarse de una acción colectiva.
+¿Desea más información?
+Tipo: Selección
+Opciones:
+- Sí, me interesa
+- No, solo quiero mi caso individual
+Requerido: Condicional
+15.7 ¿Cómo se enteró de este servicio?
+Tipo: Selección
+Opciones:
+- Búsqueda en Internet
+- Recomendación de conocido
+- Sitio web de CONDUSEF
+- Redes sociales
+- Publicidad
+- Otro (especificar)
+Requerido: No
+15.8 ¿Desea recibir actualizaciones del estatus de su trámite por
+correo electrónico?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+15.9 ¿Desea recibir actualizaciones del estatus de su trámite por SMS?
+Tipo: Selección
+Opciones:
+- Sí
+- No
+Requerido: Sí
+15.10 ¿Autoriza compartir su información con CONDUSEF para el trámite
+de su reclamación?
+Tipo: Checkbox
+Requerido: SÍ (OBLIGATORIO)
+Texto: “Sí, autorizo expresamente que mis datos personales y
+documentos sean compartidos con CONDUSEF para el trámite de mi
+reclamación”
+#
+===========================================================================
+=====
+SECCIÓN 16: DECLARACIÓN Y CONSENTIMIENTO (7 campos)
+16.1 Declaro bajo protesta de decir verdad que:
+Tipo: Checkboxes (todos obligatorios)
+□ Toda la información proporcionada en este cuestionario es
+ verdadera y correcta
+□ Los documentos presentados son auténticos y no han sido
+ alterados o falsificados
+□ No he omitido información relevante para mi reclamación
+□ Autorizo a CONDUSEF a verificar la información proporcionada
+ con la aseguradora y otras autoridades
+□ Estoy de acuerdo con el Aviso de Privacidad y el tratamiento
+ de mis datos personales
+□ Autorizo el uso de mis datos personales exclusivamente para
+ los fines del procedimiento de reclamación
+□ He leído y entiendo los términos y condiciones del servicio
+Requerido: SÍ (TODOS los checkboxes deben estar marcados)
+16.2 ¿Acepta todos los términos anteriores?
+Tipo: Checkbox único
+Texto: “Sí, acepto todos los términos y declaro bajo protesta
+de decir verdad que la información es correcta”
+Requerido: SÍ (OBLIGATORIO)
+Validación: No se puede continuar sin aceptar
+16.3 Firma electrónica o digital
+Tipo: Captura de firma electrónica
+Opciones:
+- Dibujar firma con mouse/touch
+- Cargar imagen de firma
+- Usar e.firma (firma electrónica avanzada - FIEL)
+Requerido: SÍ
+16.4 Fecha de llenado del cuestionario
+Tipo: Fecha (generada automáticamente)
+Formato: DD/MM/AAAA HH:MM
+No editable
+16.5 Lugar donde se llena el cuestionario
+Tipo: Texto
+Formato: Ciudad, Estado
+Ejemplo: Monterrey, Nuevo León
+Requerido: Sí
+16.6 Dirección IP del dispositivo
+Tipo: Texto (capturado automáticamente)
+No visible para el usuario
+Propósito: Registro y seguridad
+16.7 Número de folio asignado
+Tipo: Texto alfanumérico (generado automáticamente)
+Formato: COND-2025-000001
+No editable
+Nota: Se genera al completar el cuestionario
+#
+===========================================================================
+=====
+RESUMEN FINAL DEL CUESTIONARIO
+TOTAL DE CAMPOS: 279
+DISTRIBUCIÓN POR SECCIÓN:
+- Sección 1 (Datos del Reclamante): 32 campos
+- Sección 2 (Representación Legal): 16 campos
+- Sección 3 (Datos de la Aseguradora): 22 campos
+- Sección 4 (Datos del Vehículo): 22 campos
+- Sección 5 (Datos del Siniestro): 41 campos
+- Sección 6 (Reporte a Aseguradora): 26 campos
+- Sección 7 (Respuesta de Aseguradora): 17 campos
+- Sección 8 (Contacto con UNE): 11 campos
+- Sección 9 (Daños y Pérdidas): 15 campos
+- Sección 10 (Monto Reclamado): 11 campos
+- Sección 11 (Argumentos): 8 campos
+- Sección 12 (Preferencias): 7 campos
+- Sección 13 (Documentos): 30 items
+- Sección 14 (Historial Comunicaciones): 7 campos
+- Sección 15 (Información Adicional): 10 campos
+- Sección 16 (Declaración): 7 campos
+CAMPOS OBLIGATORIOS: Aproximadamente 120 campos
+CAMPOS OPCIONALES: Aproximadamente 159 campos
+CAMPOS CONDICIONALES: Aproximadamente 80 campos (aparecen según respuestas)
+TIPOS DE CAMPOS:
+- Texto simple: 85
+- Área de texto: 32
+- Selección simple: 68
+- Selección múltiple: 15
+- Fecha: 28
+- Hora: 3
+- Monto (numérico con formato): 24
+- Carga de archivos: 40+
+- Checkbox: 15
+- Firma electrónica: 1
+- Módulos repetibles (terceros, testigos, cotizaciones, gastos): 4
+VALIDACIONES AUTOMÁTICAS REQUERIDAS:
+- Fechas lógicas (siniestro < reporte < negativa)
+- Vigencia de póliza al momento del siniestro
+- Formato CURP (18 caracteres)
+- Formato RFC (13 caracteres)
+- Formato VIN (17 caracteres)
+- Formato CLABE (18 dígitos)
+- Formato email válido
+- Formato teléfono (10 dígitos)
+- Códigos postales válidos
+- Tamaño de archivos (máximo 7MB por archivo)
+- Formatos de archivo aceptados
+- Plazo de 2 años desde siniestro
+- Cálculos automáticos de días transcurridos
+DOCUMENTOS QUE GENERA EL SISTEMA:
+1. Escrito formal de reclamación ante CONDUSEF
+1. Listado de documentos anexos
+1. Cronología detallada de hechos
+1. Cuadro resumen de montos reclamados
+1. Solicitud de audiencia de conciliación
+1. Solicitud de arbitraje (si aplica)
+1. Solicitud de dictamen técnico
+1. Solicitud de defensoría legal gratuita
+1. Carátula del expediente
+1. Expediente completo en PDF
+#
+===========================================================================
+=====
+FIN DEL CUESTIONARIO
+NOTAS IMPORTANTES PARA EL DESARROLLO:
+1. PROGRESO DEL CUESTIONARIO:
+- Implementar barra de progreso visual
+- Guardar automáticamente cada sección
+- Permitir guardar borrador y continuar después
+- Marcar secciones completadas con ✓
+1. AYUDA CONTEXTUAL:
+- Tooltips o iconos (?) con ayuda en cada campo
+- Ejemplos visibles en campos complejos
+- Chat de soporte en vivo
+1. EXPERIENCIA DE USUARIO:
+- Diseño responsive (móvil, tablet, desktop)
+- Navegación fácil entre secciones
+- Resumen antes de enviar
+- Confirmación de envío exitoso
+- Generación inmediata de folio
+1. SEGURIDAD:
+- Encriptación de datos sensibles
+- Respaldo automático
+- Sesión segura con timeout
+- Log de accesos
+1. NOTIFICACIONES:
+- Email de confirmación al completar
+- Email con documentos generados
+- SMS con número de folio
+- Notificaciones de estatus
+1. PANEL DE ADMINISTRACIÓN:
+- Ver todos los casos
+- Filtros y búsquedas
+- Exportar datos
+- Estadísticas y reportes
+- Asignación de casos a abogados
