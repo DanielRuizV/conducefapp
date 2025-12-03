@@ -1,0 +1,21 @@
+# CONDUSEF - Protección de Uploads
+
+# Deshabilitar ejecución de PHP
+<FilesMatch "\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Solo permitir archivos específicos
+<FilesMatch "\.(pdf|doc|docx|xls|xlsx|jpg|jpeg|png)$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>
+
+# Deshabilitar listado de directorios
+Options -Indexes
+
+# Proteger contra ejecución de scripts
+RemoveHandler .php .phtml .php3 .php4 .php5 .phps
+RemoveType .php .phtml .php3 .php4 .php5 .phps
+php_flag engine off
