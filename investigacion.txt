@@ -1,0 +1,337 @@
+INVESTIGACIÓN COMPLETA
+CASOS RECLAMABLES ANTE CONDUSEF
+Percances Reales, Productos Financieros y Procedimientos Paso a Paso
+Sectores Cubiertos 10 sectores financieros
+Productos Reclamables 50+ productos diferentes
+Causas Documentadas 100+ motivos de reclamación
+Procedimientos Incluidos Paso a paso detallado
+Marco Legal Actualizado 2025
+Fecha de elaboración: 25 de noviembre de 2025
+Este documento contiene una investigación exhaustiva sobre TODOS los productos y servicios financieros que pueden
+ser objeto de reclamación ante CONDUSEF. Incluye casos reales, causas específicas, procedimientos detallados,
+requisitos documentales, plazos legales y ejemplos prácticos para cada sector.
+RESUMEN EJECUTIVO
+La CONDUSEF es la institución del gobierno federal que protege y defiende los derechos de los usuarios de servicios
+financieros en México. Su competencia abarca más de 10 sectores diferentes del sistema financiero mexicano, con
+cientos de productos específicos que pueden ser objeto de reclamación cuando existen percances reales,
+incumplimientos contractuales o violaciones a la ley.
+Estadísticas Clave 2024: Durante el primer semestre de 2024, CONDUSEF recibió 63,634 reclamaciones solo del
+sector bancario. El 54% del total de reclamaciones corresponden a bancos, 16% a aseguradoras, 14% a Buró de
+Crédito, y el resto se distribuye entre AFORES, SOFOMES, cooperativas y otros servicios financieros.
+Sector % Recl. Productos Principales
+Bancos 54% Tarjetas, cuentas, créditos, transferencias
+Seguros 16% Auto, vida, gastos médicos, daños
+Buró Crédito 14% Reportes, correcciones, aclaraciones
+AFORES 3% Pensiones, retiros, traspasos
+SOFOMES 5% Créditos hipotecarios, automotrices
+Fintech 2% Préstamos digitales, pagos electrónicos
+Otros 6% Cooperativas, casas de bolsa, factoraje
+1. SECTOR BANCARIO - PRODUCTOS Y CAUSAS
+El sector bancario es el que mayor número de reclamaciones registra ante CONDUSEF, representando más del 50%
+del total. Los bancos con más reclamaciones en 2024 fueron: BBVA México (21%), Banamex (18%), Santander (12%),
+BanCoppel y Banco Azteca.
+1.1 TARJETAS DE CRÉDITO (26% de reclamaciones bancarias)
+✓ Consumos no reconocidos - Cargos que el titular no realizó
+✓ Tarjetas de crédito no solicitadas - Envío sin autorización (violación Art. 18 bis LTOS)
+✓ Cobro de intereses moratorios excesivos - Tasas superiores a las pactadas
+✓ Comisiones no autorizadas - Cargos no establecidos en contrato
+✓ Solicitud de cancelación no atendida - No procesan cancelación solicitada
+✓ Cambios unilaterales en términos - Modifican CAT, comisiones sin aviso previo
+✓ Bloqueo o cancelación sin previo aviso - Suspenden tarjeta injustificadamente
+✓ Errores en estados de cuenta - Información incorrecta, duplicada o incompleta
+✓ Consumos vía internet no reconocidos - Compras en línea fraudulentas
+✓ Acoso de cobranza - Llamadas excesivas, ofensivas o en horarios prohibidos
+✓ Falta de aplicación de pagos - Pagos no reflejados correctamente
+✓ Liquidación de adeudo no reconocida - Siguen cobrando después de liquidar
+1.2 TARJETAS DE DÉBITO (32% de reclamaciones bancarias)
+✓ Transferencias electrónicas no reconocidas (SPEI, transferencias bancarias)
+✓ Disposiciones de efectivo en cajero no reconocidas - Retiros fraudulentos
+✓ Cargos no reconocidos en comercios - Compras no realizadas por el titular
+✓ Depósitos no aplicados total o parcialmente - Dinero depositado no reflejado
+✓ Retiros duplicados en cajeros automáticos - Error técnico cobra dos veces
+✓ Clonación de tarjeta - Uso fraudulento por duplicación
+✓ Comisiones no informadas - Cobros no notificados al usuario
+✓ Bloqueo de tarjeta sin previo aviso - Suspensión injustificada
+✓ Problemas con domiciliaciones automáticas - Cargos incorrectos recurrentes
+✓ Reposición de tarjeta no efectuada - No envían tarjeta solicitada
+1.3 CUENTAS (Ahorro, Nómina, Cheques - 21% reclamaciones)
+✓ Cargos no reconocidos en cuenta - Retiros o pagos no autorizados
+✓ Comisiones no autorizadas - Cobros por servicios no contratados
+✓ Solicitud de cierre no atendida - No cierran cuenta solicitada
+✓ Bloqueo de cuenta sin causa - Congelan fondos sin explicación
+✓ Retención indebida de saldos - No liberan dinero del cliente
+✓ Intereses no pagados conforme a lo pactado - Rendimientos menores
+✓ Problemas con chequeras - No entregan o cobran sin autorización
+✓ Apertura de cuenta sin solicitud - Abren cuenta sin consentimiento
+✓ Modificación de términos sin aviso - Cambian comisiones unilateralmente
+2. SECTOR SEGUROS - TODOS LOS TIPOS
+El sector asegurador representa el 16% de las reclamaciones ante CONDUSEF. Las aseguradoras más reclamadas son
+MetLife, HDI Seguros, GNP, Chubb y Qualitas. El 63% de las quejas corresponden específicamente a seguros de
+automóviles.
+2.1 SEGUROS DE AUTOMÓVILES (63% de reclamaciones del sector)
+✓ Negativa en pago de indemnización (53% de casos) - Rechazan pagar siniestro cubierto
+✓ Retraso en pago de indemnización (9%) - Exceden 30 días hábiles legales
+✓ Pago insuficiente (15%) - Ofrecen monto menor al valor real del daño
+✓ Rechazo de siniestro por exclusión cuestionable (8%) - Exclusiones abusivas o mal aplicadas
+✓ Problemas con deducible - Cobran deducible incorrecto o no aplicado
+✓ Negativa por falta de documentación - Solicitan documentos excesivos o innecesarios
+✓ Robo total no pagado - Niegan indemnización por robo cubierto
+✓ Problemas con pérdida total - Subvalúan el vehículo para pagar menos
+✓ Demora en reparación - Taller de la red tarda excesivamente
+✓ Reparación deficiente - Taller no repara adecuadamente el vehículo
+✓ Negativa por conductor no autorizado - Aunque póliza no especifica claramente
+✓ Negativa por alcohol/drogas - Sin pruebas contundentes
+✓ Cancelación unilateral de póliza - Cancelan sin causa justificada
+✓ Aumento excesivo de prima - Suben precio sin justificación al renovar
+✓ No pagan grúa o almacenaje - Servicios incluidos que no cubren
+2.2 SEGUROS DE VIDA
+✓ Negativa de pago por enfermedad preexistente - Rechazan sin haber investigado al contratar
+✓ Negativa de pago de indemnización por fallecimiento - Buscan pretextos para no pagar
+✓ Retraso en pago a beneficiarios - Demoran meses en pagar a la familia
+✓ Negativa por falta de vigencia - Argumentan falta de pago cuando hay prórroga
+✓ Problemas con beneficiarios - No reconocen o dificultan trámite
+✓ Rescate o retiro no pagado - No devuelven ahorro acumulado
+✓ Solicitud de cancelación no atendida - Siguen cobrando prima
+✓ Rechazo por declaraciones incorrectas - Sin haber validado al inicio
+2.3 SEGUROS DE GASTOS MÉDICOS MAYORES
+✓ Negativa de pago de tratamiento médico - Rechazan cobertura de enfermedad/accidente
+✓ Reembolso insuficiente - Pagan menos de lo que cubría la póliza
+✓ Negativa por enfermedad preexistente - Sin haberla detectado al contratar
+✓ Rechazo de medicamentos - No autorizan medicinas necesarias
+✓ Problemas con red de hospitales - Hospital de la red no es reconocido
+✓ Retraso en autorización de procedimientos - Demoran causando riesgo al paciente
+✓ Cancelación de póliza tras reclamación - Cancelan después de usar el seguro
+✓ Aumento excesivo de prima por edad - Incrementos desproporcionados
+3. AFORES Y PENSIONES
+Las AFORES representan aproximadamente el 3% de las reclamaciones totales. Las AFORES con más reclamaciones
+son: XXI Banorte (18%), Citibanamex (11%), InverCap (10%), Principal (8%) y Profuturo (7%). Las principales causas
+son trámites no atendidos y problemas con retiros.
+✓ Solicitud de trámite no atendida o no concluida (51% de casos) - Retiros, traspasos, unificaciones
+✓ Separación de cuentas no concluida (9%) - Cuentas duplicadas no resueltas
+✓ Unificación de cuentas no atendida (7%) - No unifican cuentas múltiples
+✓ Inconformidad con saldos (5%) - Montos registrados incorrectos
+✓ Inconformidad con monto de retiro liquidado (4%) - Pagan menos de lo que corresponde
+✓ Errores en estados de cuenta - Información incorrecta en reportes
+✓ Rendimientos insuficientes - Mala administración de inversiones
+✓ Comisiones indebidas - Cobros superiores a los autorizados
+✓ Transferencia entre AFORES no efectuada - No procesan cambio solicitado
+✓ Entrega de pensiones retrasada - Demora en iniciar pagos
+✓ Traspaso de recursos sin autorización - Cambian de AFORE sin consentimiento
+✓ Registro duplicado de cuenta - Generan cuenta adicional por error
+✓ No localizan al trabajador - No envían estados de cuenta
+4. CRÉDITOS (Hipotecarios, Automotrices, Personales)
+4.1 CRÉDITOS HIPOTECARIOS
+✓ Cobro de comisiones excesivas - Comisiones no pactadas o superiores
+✓ Falta de aplicación de pagos - Pagos no reflejados correctamente
+✓ Cobro indebido de seguros - Seguros no contratados o duplicados
+✓ Problemas con pagos anticipados - No aplican correctamente o cobran penalización ilegal
+✓ Intereses mal calculados - Tasas superiores a las pactadas
+✓ Negativa de entrega de escrituras - Retienen después de liquidar
+✓ Modificación unilateral de términos - Cambian tasa o comisiones sin autorización
+✓ Avalúo inflado - Sobreprecio del inmueble para dar más crédito
+✓ Problemas con el adeudo - Calculan saldo mayor al real
+✓ Ejecución hipotecaria injustificada - Intentan quitar vivienda sin haber agotado vías
+4.2 CRÉDITOS AUTOMOTRICES
+✓ Cobro de comisiones no autorizadas - Comisión por apertura excesiva
+✓ Seguros sobrepreciados - Obligan a contratar seguro caro
+✓ GPS obligatorio con costo - Dispositivo no solicitado con cargo mensual
+✓ Intereses mal calculados - CAT real superior al informado
+✓ Negativa de liberación de gravamen - No liberan vehículo al terminar de pagar
+✓ Recuperación indebida del vehículo - Se lo llevan con solo un pago atrasado
+✓ Modificación de términos - Cambian tabla de amortización unilateralmente
+✓ Reestructura no aplicada - No respetan acuerdo de reestructura de deuda
+4.3 CRÉDITOS PERSONALES Y DE NÓMINA
+✓ CAT engañoso - Costo anual total real muy superior al informado
+✓ Cobro de seguro obligatorio - Imponen seguro con costo elevado
+✓ Descuentos en nómina incorrectos - Descuentan más de lo acordado
+✓ Negativa de liquidación anticipada - No permiten pagar antes o cobran penalización
+✓ Acoso de cobranza - Presionan o amenazan para cobrar
+✓ Cobro después de liquidar - Siguen descontando después de terminar de pagar
+5. BURÓ DE CRÉDITO Y SOCIEDADES DE INFORMACIÓN
+CREDITICIA
+El Buró de Crédito representa el 14% de las reclamaciones totales ante CONDUSEF. Las principales causas son
+desacuerdos con información registrada, créditos no reconocidos y errores en datos personales. Los usuarios pueden
+solicitar 2 aclaraciones gratuitas al año.
+✓ Crédito no reconocido en historial - Aparece crédito que nunca se solicitó
+✓ Desacuerdo con RFC registrado - RFC incorrecto o de otra persona
+✓ Información de crédito incorrecta - Montos, fechas o estatus erróneos
+✓ Crédito ya pagado aparece como impago - No actualizan después de liquidar
+✓ Atrasos no reconocidos - Registran morosidad sin haberla tenido
+✓ Domicilio incorrecto - Dirección equivocada en el reporte
+✓ Nombre incorrecto - Error en datos personales
+✓ Crédito de otra persona - Confusión de identidad (posible fraude)
+✓ Crédito no eliminado después del plazo - Debió borrarse por ley y sigue apareciendo
+✓ Modificación o corrección no realizada - Solicitaron aclaración y no la procesaron
+✓ Negativa injustificada de aclaración - Rechazan aclaración sin fundamento
+✓ Reporte especial con errores - Datos incorrectos en consulta
+✓ Consultas no autorizadas - Instituciones consultan sin permiso
+IMPORTANTE: Los créditos se eliminan automáticamente del Buró de Crédito después de cierto tiempo: deudas ≤25
+UDIS (1 año), >25 y ≤500 UDIS (2 años), >500 y ≤1000 UDIS (4 años), >1000 UDIS (6 años si son <400k UDIS y no hay
+juicio).
+6. OTROS SERVICIOS FINANCIEROS RECLAMABLES
+6.1 INSTITUCIONES DE TECNOLOGÍA FINANCIERA (FINTECH)
+✓ Préstamos con intereses usureros - CAT superiores al 100% anual
+✓ Cobro de penalizaciones excesivas - Multas desproporcionadas por atraso
+✓ Acoso de cobranza digital - WhatsApp, SMS, emails agresivos
+✓ Acceso no autorizado a contactos - Llaman a familiares sin permiso
+✓ Cargos automáticos no autorizados - Descuentan de cuenta sin aviso
+✓ Negativa de reestructura - No permiten renegociar deuda
+✓ Información engañosa - Publicidad diferente a condiciones reales
+6.2 SOCIEDADES COOPERATIVAS DE AHORRO Y PRÉSTAMO
+✓ Problemas con retiro de ahorros - No permiten retirar dinero
+✓ Liquidación de cooperativa - Pérdida de ahorros por quiebra
+✓ Rendimientos no pagados - No pagan intereses prometidos
+✓ Cuotas excesivas - Cobran cuotas de socio muy altas
+6.3 CASAS DE BOLSA Y FONDOS DE INVERSIÓN
+✓ Operaciones no autorizadas - Compran/venden sin instrucción
+✓ Rendimientos menores a los esperados - Mala gestión del portafolio
+✓ Comisiones excesivas - Cobros superiores a lo pactado
+✓ Problemas con retiro de inversiones - Demoran o niegan retiro
+✓ Falta de información - No reportan movimientos adecuadamente
+PROCEDIMIENTO COMPLETO PARA RECLAMAR ANTE CONDUSEF
+Independientemente del tipo de producto financiero o la institución involucrada, el procedimiento para presentar una
+reclamación ante CONDUSEF sigue una estructura general con etapas claramente definidas. A continuación se detallan
+los pasos completos.
+PASO 1: ACUDE PRIMERO A LA UNE (UNIDAD ESPECIALIZADA)
+REQUISITO LEGAL: Antes de acudir a CONDUSEF, debes intentar resolver el problema directamente con la
+institución financiera a través de su Unidad Especializada de Atención a Usuarios (UNE). Por ley, todas las
+instituciones deben tener una UNE.
+1. Contacta la UNE del banco/aseguradora/AFORE (teléfono, correo, presencial)
+2. Presenta tu queja por escrito explicando el problema
+3. La institución tiene 30 días hábiles para responder
+4. Solicita y conserva el FOLIO DE QUEJA (indispensable para CONDUSEF)
+5. Guarda el acuse de recibo y toda comunicación con la UNE
+Si la UNE: (a) No responde en 30 días, (b) Su respuesta no es satisfactoria, o (c) Niega tu solicitud injustificadamente,
+ENTONCES puedes proceder a CONDUSEF con el Folio de Queja.
+PASO 2: REÚNE TODA LA DOCUMENTACIÓN NECESARIA
+OBLIGATORIOS (todos los casos):
+• Identificación oficial vigente (INE/Pasaporte) - FRENTE Y REVERSO
+• Comprobante de domicilio (máx. 3 meses antigüedad)
+• Documento que acredite relación contractual (contrato, póliza, estado de cuenta)
+• Folio de queja de la UNE y acuse de recibo
+• Escrito de reclamación explicando los hechos
+ESPECÍFICOS según el caso:
+• Seguros: Póliza completa, reporte del siniestro, dictamen ajustador, cotizaciones, fotos
+• Tarjetas: Estados de cuenta con cargos marcados, comprobantes de pago
+• Créditos: Tabla de amortización, recibos de pago, contrato de crédito
+• AFORE: Estados de cuenta, solicitudes de trámite
+• Buró: Reporte de Crédito Especial, comprobantes de pago de crédito liquidado
+PASO 3: PRESENTA TU RECLAMACIÓN ANTE CONDUSEF
+Tres formas de presentar tu queja:
+A) QUEJA ELECTRÓNICA (En línea - recomendado):
+• Sitio: https://tramites.condusef.gob.mx/QuejaElectronica
+• Disponible 24/7 desde cualquier lugar
+• Recibes folio inmediatamente
+• Puedes dar seguimiento en línea
+• Productos disponibles: tarjetas de crédito, débito, cuenta de nómina
+• Causas: consumos no reconocidos, cancelación no atendida, retiros no reconocidos, depósitos no aplicados
+B) PRESENCIAL (En Unidades de Atención):
+• Ubicaciones: https://www.condusef.gob.mx/uau
+• Horario: Lunes a Viernes 8:30 a 18:30 hrs
+• Necesitas cita previa: Tel. 55 53 400 999
+• Llevar todos documentos originales y copias
+• Atienden cualquier tipo de producto financiero
+C) TELEFÓNICA (Orientación):
+• CDMX: 55 53 400 999
+• Interior: 01 800 999 80 80
+• Horario: Lunes a Viernes 8:30 a 18:30 hrs
+• Para asesoría, orientación y programar citas
+PASO 4: PROCESO DE ATENCIÓN A USUARIOS
+Una vez presentada tu reclamación, CONDUSEF inicia el Proceso de Atención que consta de varias etapas. Deberás
+recibir un NÚMERO DE FOLIO para dar seguimiento.
+Etapa Descripción
+<b>1. VENTANILLA ÚNICA</b> Registro inicial del asunto y validación de competencia
+<b>2. ASESORÍA TÉCNICO-JURÍDICA</b> Orientación sobre derechos y opciones disponibles
+<b>3. GESTIÓN/QUEJA</b> Se contacta a la institución para resolución rápida (30 días)
+<b>4. CONCILIACIÓN</b> Audiencia con la institución para llegar a acuerdo
+<b>5. ARBITRAJE</b> Proceso vinculante si ambas partes aceptan (solo productos registrados)
+<b>6. DICTAMEN TÉCNICO</b> Opinión especializada para usar en tribunales
+<b>7. DEFENSORÍA LEGAL</b> Abogado gratuito si no hay recursos para litigar
+PASO 5: PLAZOS Y TIEMPOS DE RESPUESTA
+Etapa/Proceso Plazo Legal
+Respuesta de UNE 30 días hábiles
+Gestión/Queja ante CONDUSEF 30 días hábiles
+Audiencia de Conciliación Se programa en 10-15 días
+Dictamen Técnico 30-45 días después de audiencia
+Arbitraje Variable, generalmente 2-4 meses
+Defensoría Legal Gratuita Depende del proceso judicial
+Plazo para reclamar ante CONDUSEF 2 años desde siniestro o negativa
+■■ MUY IMPORTANTE: Tienes un plazo máximo de 2 años desde que ocurrió el siniestro o desde que la
+institución te negó el servicio para presentar tu reclamación ante CONDUSEF. Después de 2 años, la
+reclamación prescribe y no procede.
+PASO 6: SEGUIMIENTO Y RESOLUCIÓN
+1. Conserva tu número de folio - Es indispensable para consultar estatus
+2. Consulta en línea - En www.condusef.gob.mx con tu folio
+3. Asiste a audiencias - Si te convocan a conciliación, es OBLIGATORIO asistir
+4. Lleva documentos adicionales - Si CONDUSEF solicita más información
+5. Evalúa propuestas - Si la institución ofrece acuerdo, analiza si es justo
+6. Acepta o rechaza - Puedes aceptar conciliación o pedir dictamen/arbitraje
+7. Solicita dictamen - Si no hay acuerdo, pide dictamen técnico para demanda
+CASOS PRÁCTICOS Y EJEMPLOS REALES
+A continuación se presentan casos prácticos basados en reclamaciones reales para ilustrar cómo aplicar los
+procedimientos descritos:
+CASO 1: Consumos No Reconocidos en Tarjeta de Crédito
+Situación: Juan detecta en su estado de cuenta de tarjeta BBVA cargos por $15,000 que no realizó. Son compras en
+línea en páginas que no conoce.
+Procedimiento seguido:
+1. Llama de inmediato al banco para reportar y bloquear tarjeta (mismo día)
+2. Presenta aclaración formal en sucursal con estados de cuenta marcados
+3. El banco le da folio de aclaración y tiene 45 días para investigar
+4. Después de 45 días, el banco responde que los cargos son válidos (sin fundamento)
+5. Juan acude a UNE del banco con folio de aclaración rechazada
+6. UNE no resuelve satisfactoriamente en 30 días
+7. Con folio de UNE, presenta queja electrónica en CONDUSEF
+8. CONDUSEF programa audiencia de conciliación
+9. En audiencia, BBVA reconoce que fueron cargos fraudulentos y devuelve $15,000
+Resultado: Favorable para Juan. Tiempo total: 3 meses
+CASO 2: Negativa de Pago de Seguro de Auto
+Situación: A María le roban su auto Honda Civic 2022 valorado en $350,000. Tiene seguro de Qualitas con cobertura
+amplia. La aseguradora niega el pago argumentando que el vehículo no tenía dispositivo GPS que según ellos era
+obligatorio (pero esto no estaba en la póliza).
+Procedimiento seguido:
+1. Presenta denuncia ministerial por robo (mismo día del robo)
+2. Reporta siniestro a Qualitas con folio de denuncia
+3. Entrega toda documentación: póliza, factura, denuncia, llaves
+4. Después de 45 días, Qualitas niega pago por "falta de GPS"
+5. María revisa póliza y condiciones generales: NO dice nada de GPS obligatorio
+6. Presenta queja en UNE de Qualitas con copia de póliza
+7. UNE mantiene negativa (30 días)
+8. Con folio UNE, acude presencialmente a CONDUSEF con toda documentación
+9. CONDUSEF programa conciliación
+10. En audiencia, Qualitas no puede justificar la negativa (GPS no está en póliza)
+11. Llegan a acuerdo: Qualitas paga $350,000 - deducible ($7,000) = $343,000
+Resultado: Favorable. Tiempo total: 4 meses. María recuperó su dinero.
+CASO 3: Crédito No Reconocido en Buró de Crédito
+Situación: Pedro solicita crédito hipotecario pero se lo niegan. Al revisar su Buró de Crédito, descubre un crédito
+automotriz de $180,000 con Santander que nunca solicitó. Aparece en mora desde hace 2 años.
+Procedimiento seguido:
+1. Solicita Reporte de Crédito Especial gratuito (anual)
+2. Identifica el crédito no reconocido de Santander
+3. Presenta aclaración en línea en Buró de Crédito (gratis)
+4. Buró traslada aclaración a Santander (29 días para responder)
+5. Santander responde que el crédito es válido pero no presenta pruebas
+6. Pedro presenta queja en UNE de Santander
+7. Santander insiste sin dar evidencia documental
+8. Pedro acude a CONDUSEF con: Reporte Buró, respuesta negativa, su identificación
+9. CONDUSEF solicita a Santander que presente: solicitud firmada, identificación, contrato
+10. Santander NO puede presentar documentos con firma de Pedro
+11. CONDUSEF determina que es un caso de posible robo de identidad
+12. Santander acepta eliminar el crédito del Buró
+Resultado: Favorable. Crédito eliminado. Pedro pudo solicitar hipoteca. Tiempo: 3 meses
+RECOMENDACIONES IMPORTANTES Y TIPS PRÁCTICOS
+1. ACTÚA RÁPIDO: No dejes pasar tiempo. Entre más pronto reportes, mejor.
+2. DOCUMENTA TODO: Guarda copias de TODO - correos, estados de cuenta, contratos, recibos, grabaciones de
+llamadas.
+3. COMUNICACIÓN POR ESCRITO: Siempre solicita acuses de recibo. Los acuerdos verbales no sirven como prueba.
+4. NÚMEROS DE FOLIO: CONSERVA todos los folios - de aclaraciones, UNE, CONDUSEF. Son tu evidencia de que
+seguiste el proceso.
+5. TOMA FOTOS Y CAPTURAS: En seguros de auto, toma MUCHAS fotos de los daños. En cargos no reconocidos,
+capturas de pantalla.
+6. LEE TU CONTRATO/PÓLIZA: Conoce qué dice tu contrato. Las instituciones a veces niegan servicios que SÍ están
+cubiertos.
+7. NO FIRMES LO QUE NO ENTIENDAS: Si en CONDUSEF te ofrecen un acuerdo, léelo completo antes de firmar.
+8. PLAZOS SON IMPORTANTES: Recuerda el plazo de 2 años para reclamar. No lo dejes pasar.
+9. SERVICIOS CONDUSEF SON GRATUITOS: NUNCA pagues a nadie por "agilizar" tu trámite ante CONDUSEF. Es
+GRATIS.
+10. ALTERNATIVAS LEGALES: Si CONDUSEF no resuelve favorablemente, puedes demandar ante tribunales. El
+Dictamen Técnico te ayudará.
